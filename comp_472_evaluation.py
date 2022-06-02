@@ -18,7 +18,9 @@ def print_confusion_matrix(confusion_matrix, class_names, figsize = (10,7), font
     heatmap.xaxis.set_ticklabels(heatmap.xaxis.get_ticklabels(), rotation=45, ha='right', fontsize=fontsize)
     plt.ylabel('Truth')
     plt.xlabel('Prediction')
-
+    
+    
+#testing some random output
 truth =      ["mask","Not a mask","mask","mask", "mask","Not a mask", "Not a mask", "mask", "mask", "Not a mask"]
 prediction = ["mask","mask","mask","Not a mask","mask", "Not a mask", "mask", "Not a mask", "mask", "mask"]
 
