@@ -3,7 +3,6 @@ from sklearn.metrics import confusion_matrix , classification_report
 import seaborn as sns
 import pandas as pd
 
-# Source code credit for this function: https://gist.github.com/shaypal5/94c53d765083101efc0240d776a23823
 
 def print_confusion_matrix(confusion_matrix, class_names, figsize = (10,7), fontsize=14):
     
